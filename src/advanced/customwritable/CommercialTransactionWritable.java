@@ -2,22 +2,22 @@ package advanced.customwritable;
 
 import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.io.WritableComparable;
-
 import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 import java.util.Objects;
 
-public class FireAvgTempWritable implements WritableComparable<FireAvgTempWritable> {
+public class CommercialTransactionWritable implements WritableComparable<advanced.customwritable.CommercialTransactionWritable>{
+
 
     private int n;
     private double soma;
 
-    public FireAvgTempWritable(){
+    public CommercialTransactionWritable(){
 
     }
 
-    public FireAvgTempWritable(int n, double soma) {
+    public CommercialTransactionWritable (int n, double soma) {
         this.n = n;
         this.soma = soma;
     }
@@ -38,7 +38,7 @@ public class FireAvgTempWritable implements WritableComparable<FireAvgTempWritab
         this.soma = soma;
     }
 
-    public int compareTo(FireAvgTempWritable o){
+    public int compareTo(advanced.customwritable.CommercialTransactionWritable o){
         if(this.hashCode() > o.hashCode()){
             return +1;
         }else if(this.hashCode() < o.hashCode()){
@@ -63,7 +63,7 @@ public class FireAvgTempWritable implements WritableComparable<FireAvgTempWritab
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        FireAvgTempWritable that = (FireAvgTempWritable) o;
+        advanced.customwritable.CommercialTransactionWritable that = (advanced.customwritable.CommercialTransactionWritable) o;
         return n == that.n && Double.compare(that.soma, soma) == 0;
     }
 
@@ -72,3 +72,4 @@ public class FireAvgTempWritable implements WritableComparable<FireAvgTempWritab
         return Objects.hash(n, soma);
     }
 }
+
