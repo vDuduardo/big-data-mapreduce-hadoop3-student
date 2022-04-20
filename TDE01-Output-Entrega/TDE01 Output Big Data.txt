@@ -1,0 +1,59 @@
+- Ex1
+
+Brazil	54762
+
+
+- Ex2
+
+1988	8568
+1989	16916
+1990	18188
+1991	22652
+1992	32860
+
+
+- Ex3
+
+1988 - Export	3542
+1988 - Import	4268
+1988 - Re-Export	758
+1989 - Export	7092
+1989 - Import	8845
+
+
+- Ex4
+
+1988	1.6750924673436042E7
+1989	1.1040023169484511E7
+1990	1.3192706620958874E7
+1991	1.2069165192609925E7
+1992	8927758.977115033
+
+
+- Ex5
+
+1989 - Number of items - 04_dairy_products_eggs_honey_edible_animal_product_nes	657842.0
+1989 - Volume in litres - 04_dairy_products_eggs_honey_edible_animal_product_nes	24713.333333333332
+1989 - Volume in litres - 20_vegetable_fruit_nut_etc_food_preparations	8978975.0
+1989 - Volume in litres - 22_beverages_spirits_and_vinegar	2137922.875
+1989 - Volume in litres - 27_mineral_fuels_oils_distillation_products_etc	2739279.25
+
+
+- Ex6
+
+1988 Area in square metres	Maximum: 4.03386005E8 - Minimum: 7.0 - Average: 6958580.006622517
+1988 Electrical energy in thousands of kilowatt-hours	Maximum: 5512366.0 - Minimum: 5512366.0 - Average: 5512366.0
+1988 Length in metres	Maximum: 1.4090989E7 - Minimum: 2220.0 - Average: 1996338.7916666667
+1988 Number of items	Maximum: 9.3395132E8 - Minimum: 62.0 - Average: 1.3709735868804665E7
+1988 Number of pairs	Maximum: 2.9145623E7 - Minimum: 1069.0 - Average: 2968403.88
+
+
+- Ex7
+
+Export	quantity=6.99847369665E11, commodity=Ice, snow and potable water not sweetened or flavoure
+Import	quantity=1.073469712878E12, commodity=Iron ore, concentrate, not iron pyrites,unagglomerate
+Re-Export	quantity=1.261968E9, commodity=Safety razor blades, including blanks in strips
+Re-Import	quantity=3.8774873E7, commodity=Chem wood pulp, soda/sulphate, non-conifer, bleached
+
+
+
